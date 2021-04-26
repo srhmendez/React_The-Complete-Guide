@@ -1,0 +1,27 @@
+
+.expenseCard{
+    display:flex;
+    justify-content: space-between;
+    background:rgb(53, 53, 53);
+    padding:10px;
+    margin:0 2.5%;
+    border-radius:8px;
+    padding-right:2rem;
+    margin-bottom:1%;
+}
+.expenseItemPriceContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.expenseItem{
+    color:rgb(221, 221, 221);
+    font-size:1.1rem;
+    margin-bottom:0;
+    margin-top:2%;
+}
+.expenseItemPrice{
+    color:white;
+    margin-bottom:2%;
+}
