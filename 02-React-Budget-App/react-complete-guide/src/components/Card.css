@@ -1,0 +1,5 @@
+/* is the outermost card */
+.card{
+    border-radius:8px;
+    box-shadow: 1px 1px 4px rgba(233, 233, 233, 0.25);
+}

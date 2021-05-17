@@ -1,0 +1,6 @@
+/* creates spaces between expense cards */
+.expenseCard{
+    margin:0 2.5%;
+    margin-bottom:1%;
+    box-shadow: none;
+}

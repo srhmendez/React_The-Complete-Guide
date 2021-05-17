@@ -1,27 +1,29 @@
-
-.expenseCard{
-    display:flex;
-    justify-content: space-between;
-    background:rgb(53, 53, 53);
-    padding:10px;
-    margin:0 2.5%;
-    border-radius:8px;
-    padding-right:2rem;
-    margin-bottom:1%;
-}
+/* controls the styling for the price div container */
 .expenseItemPriceContainer{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    align-self: center;
+    margin:1rem 0;
+    background:rgb(53, 53, 53);
+    padding:0 1%;
 }
+/* actual price font color */
+.expenseItemPrice{
+    color:white;  
+}
+/* What the expense is ie: car insurance */
 .expenseItem{
     color:rgb(221, 221, 221);
     font-size:1.1rem;
     margin-bottom:0;
     margin-top:2%;
 }
-.expenseItemPrice{
-    color:white;
-    margin-bottom:2%;
+
+h2.expenseItem{
+    padding-left:5%;
+    width:100%;
+    display:flex;
+    align-self: center;
+    margin:0;
 }
