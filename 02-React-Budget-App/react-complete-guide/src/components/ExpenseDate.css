@@ -1,4 +1,4 @@
-.date{
+.dateCard{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     border-radius:8px;
     padding:0px 3px;
 }
-.date p {
+.dateCard p {
     font-weight:700;
     margin:1%;
     padding:6px 2px;

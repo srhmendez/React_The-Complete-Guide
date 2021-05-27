@@ -2,6 +2,7 @@ import ExpenseItem from "./ExpenseItem";
 import Card from './Card';
 import './ExpenseArray.css';
 
+//Right now the expenses array is 
 function ExpenseArray() {
   const expenses = [
     {

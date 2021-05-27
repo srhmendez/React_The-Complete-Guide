@@ -7,19 +7,19 @@ function ExpenseDate(props){
     const year = props.date.getFullYear();
 
     return(
-        <div className="date">
-        <div className="dateContainer">
-          <div>
-            <p>{month}</p>
-          </div>
-          <div>
-            <p>{day}</p>
-          </div>
-          <div>
-            <p>{year}</p>
+        <div className="dateCard">
+          <div className="dateContainer">
+            <div>
+              <p>{month}</p>
+            </div>
+            <div>
+              <p>{day}</p>
+            </div>
+            <div>
+              <p>{year}</p>
+            </div>
           </div>
         </div>
-      </div>
     )
 }
 
