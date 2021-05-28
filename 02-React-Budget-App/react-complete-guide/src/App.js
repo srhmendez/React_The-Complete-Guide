@@ -1,7 +1,7 @@
-import ExpenseArray from "./components/ExpenseArray";
+import ExpenseArray from "./components/Expenses/ExpenseArray";
 
 
-function App(props) {
+const App = (props) => {
   
   return (
     <div>
