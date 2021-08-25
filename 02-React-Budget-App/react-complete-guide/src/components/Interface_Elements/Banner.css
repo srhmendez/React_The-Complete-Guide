@@ -1,0 +1,12 @@
+.banner{
+    background:rgba(85, 85, 85, 0.678);
+    margin: 0 2.5%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-top:10px;
+}
+h5{
+    color:rgb(238, 238, 238);
+    margin:0;
+    padding: .8% .9%;
+}
