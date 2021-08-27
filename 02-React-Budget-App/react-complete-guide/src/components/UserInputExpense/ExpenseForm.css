@@ -1,0 +1,29 @@
+form {
+    background:rgb(95, 95, 95);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin:0 2.5%;
+}
+.newExpenseControls{
+    display:flex;
+    justify-content: space-between;
+}
+.expenseControl{
+    margin:1%;
+    width:fit-content;
+}
+.newExpenseActions{
+    margin: 1%;
+}
+label{
+    margin-right:10px;
+    color:white;
+}
+button.add-expense{
+    width:100px;
+    background:orangered;
+    color:white;
+    border:none;
+    padding:5% 0;
+    border-radius:8px;
+}
