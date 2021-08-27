@@ -19,7 +19,7 @@ label{
     margin-right:10px;
     color:white;
 }
-button{
+button.add-expense{
     width:100px;
     background:orangered;
     color:white;
