@@ -15,6 +15,9 @@ form {
 .newExpenseActions{
     margin: 1%;
 }
+div.expenseControl label {
+    font-size:12px;    
+}
 label{
     margin-right:10px;
     color:white;
