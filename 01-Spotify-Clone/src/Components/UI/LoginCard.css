@@ -1,0 +1,16 @@
+.login-card{
+    background: rgb(41, 41, 41);
+    box-shadow: black 2px 3px;
+    max-width:40%;
+    margin:0 auto;
+    padding:1rem;
+    height:600px;
+}
+
+.title{
+    color:#1DB954;
+}
+
+.slogan{
+    color:white;
+}
