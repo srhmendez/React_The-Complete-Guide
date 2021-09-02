@@ -1,5 +1,6 @@
 import NavLogo from "./NavLogo";
 import NavBar from "./NavBar";
+import './Header.css';
 
 
 const Header = () => {

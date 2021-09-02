@@ -1,0 +1,8 @@
+.filter-genres{
+    display:flex;
+    flex-direction: row;
+    width:50%;
+  }
+  .nav-bar{
+    width:100%;
+  }

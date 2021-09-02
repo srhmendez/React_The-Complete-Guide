@@ -1,0 +1,15 @@
+.search-bar{
+    margin: 0px 20px;
+    padding-top:2%;
+    margin-top:1%;
+    margin-right:0;
+}
+.search-div{
+    padding-top:.35%;
+    display:flex;
+}
+.search-btn{
+    margin-top:.35%;
+    background:rgb(158, 158, 158);
+    border:none;
+}
