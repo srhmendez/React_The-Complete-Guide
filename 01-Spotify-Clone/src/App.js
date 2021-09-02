@@ -1,13 +1,20 @@
 import './App.css';
-import Button from './Components/UI/Button';
-import LoginCard from './Components/UI/LoginCard';
-import Logo from './Components/Logo';
 
 function App() {
 
   return (
     <div className="App">
-      <LoginCard></LoginCard>
+      <div className="nav-bar">
+        <form className='filter-genres'>
+          <label className='genre-dropdown' for="genre" id='genre'>Choose A Genre:</label>
+          <select name='genre'>
+            <option value="Pop">Pop</option>
+            <option value="Rock">Rock</option>
+            <option value="Rap">Rap</option>
+            <option value="Electronic">Electronic</option>
+          </select>
+        </form>
+      </div>
     </div>
   );
 }

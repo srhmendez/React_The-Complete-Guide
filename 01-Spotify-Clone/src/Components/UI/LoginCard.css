@@ -1,10 +1,10 @@
 .login-card{
     background: rgb(41, 41, 41);
     box-shadow: black 2px 3px;
-    max-width:40%;
+    max-width:20%;
     margin:0 auto;
     padding:1rem;
-    height:600px;
+    height:400px;
 }
 
 .title{
