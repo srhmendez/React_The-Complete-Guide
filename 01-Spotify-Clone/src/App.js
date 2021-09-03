@@ -1,12 +1,14 @@
 import './App.css';
-import Header from './Components/Header/Header';
+import LoginCard from './Components/UI/LoginCard';
+import Dashboard from './Components/Dashboard';
 
+const code = new URLSearchParams(window.location.search).get('code')
 
 function App() {
-
-  return (
+  
+  return (code ? <Dashboard code={code} /> :
     <div className="App">
-      <Header></Header>
+      <LoginCard></LoginCard>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-
+import './Dropdown.css';
 
 const DropDown = () => {
     
@@ -7,7 +7,7 @@ const DropDown = () => {
             <div className="playlist-genres dropdowns">
 
                 <div className="inner-dropdown-divs"> 
-                    <label className='dropdown' for="playlist" id='playlist'>Choose A Genre</label>
+                    <label className='dropdown' for="playlist" id='playlist'><span className="dropdown-label-txt">Choose A Genre</span></label>
                 </div>
                 
                 <div className="inner-dropdown-divs">
