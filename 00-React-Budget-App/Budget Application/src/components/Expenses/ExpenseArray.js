@@ -3,7 +3,12 @@ import Card from '../Interface_Elements/Card';
 import './ExpenseArray.css';
 
 //Right now the expenses array is 
-const ExpenseArray = () => {
+const ExpenseArray = (props) => {
+
+  const newItem = props.onSaveExpenseDataHandler();
+  console.log('This is from the Expense Array')`  `
+
+
   const expenses = [
     {
       title: "Car Insurance",
