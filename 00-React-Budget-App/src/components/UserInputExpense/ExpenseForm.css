@@ -1,3 +1,45 @@
+@media only screen and (max-width:600px) {
+    .newExpenseControls{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .newExpense{
+        background:grey;
+        padding:2.5% 20px 0px;;
+        margin:0 2.5%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .expenseControl{
+        margin-top:.5rem;
+        margin-bottom:.5rem;
+        display:flex;
+        justify-content: flex-start;
+    }
+
+    .inputLabel {
+        margin-right:.5rem;
+        width:30%;
+        font-size:12px;
+    }
+
+    button.add-expense{
+        width:100px;
+        margin-left:32%;
+        background:orangered;
+        color:white;
+        border:none;
+        padding:1.5% 0;
+        border-radius:8px;
+        font-size:14px;
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width:601px){
+
 form {
     background:rgb(95, 95, 95);
     border-bottom-left-radius: 8px;
@@ -29,4 +71,5 @@ button.add-expense{
     border:none;
     padding:5% 0;
     border-radius:8px;
+}
 }
