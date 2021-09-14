@@ -6,7 +6,7 @@ import './ExpenseArray.css';
 const ExpenseArray = (props) => {
 
   const newItem = props.onSaveExpenseDataHandler();
-  console.log('This is from the Expense Array');
+  console.log(newItem);
 
 
   const expenses = [
