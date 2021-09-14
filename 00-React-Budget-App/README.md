@@ -1,7 +1,7 @@
 # Budget Tracking Application
 
-## [Deployed Project](https://epic-borg-b15ae0.netlify.app) 
-## [![Netlify Status](https://api.netlify.com/api/v1/badges/565825de-7fa2-4cf3-80c1-07d0a8e654de/deploy-status)](https://app.netlify.com/sites/epic-borg-b15ae0/deploys)
+## [Deployed Project](loving-wozniak-5d8a7e.netlify.app) 
+## [![Netlify Status](https://api.netlify.com/api/v1/badges/282c1614-2cfd-4e93-8256-509f9fe71a84/deploy-status)](https://app.netlify.com/sites/loving-wozniak-5d8a7e/deploys)
 
 ### Topics Explored in This App
 
