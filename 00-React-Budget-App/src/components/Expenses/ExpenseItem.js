@@ -17,8 +17,6 @@ const ExpenseItem = (props) => {
 
   return (
     <Card className="expenseItemPriceContainer">
-
-      
       
       <ExpenseDate date={props.date}/>
 
