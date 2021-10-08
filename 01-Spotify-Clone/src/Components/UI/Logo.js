@@ -1,5 +1,5 @@
-import '../Components/Logo.css';
-import Spotify_Icon_RGB_Green from '../Images/Spotify_Icon_RGB_Green.png';
+import '../UI/Logo.css';
+import Spotify_Icon_RGB_Green from '../../Images/Spotify_Icon_RGB_Green.png';
 
 function Logo() {
 

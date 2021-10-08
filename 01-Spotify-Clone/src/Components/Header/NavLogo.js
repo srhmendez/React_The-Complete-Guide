@@ -1,4 +1,4 @@
-import "./NavLogo.css";
+import "../Header/NavLogo.css";
 import Spotify_Icon_RGB_Green from '../../Images/Spotify_Icon_RGB_Green.png';
 
 

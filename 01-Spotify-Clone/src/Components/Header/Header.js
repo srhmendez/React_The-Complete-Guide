@@ -1,4 +1,4 @@
-import NavLogo from "./NavLogo";
+import NavLogo from "../Header/NavLogo";
 import NavBar from "./NavBar";
 import './Header.css';
 
