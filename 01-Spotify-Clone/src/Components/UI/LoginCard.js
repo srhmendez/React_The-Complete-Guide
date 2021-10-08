@@ -1,6 +1,6 @@
 import './LoginCard.css';
 import Button from './Button';
-import Logo from '../../Components/Logo';
+import Logo from './Logo';
 
 function LoginCard() {
 

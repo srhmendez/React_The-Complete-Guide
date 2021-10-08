@@ -1,8 +1,11 @@
 const express = require('express');
 const SpotifyWebApi = require('spotify-web-api-node');
 const spotifyApi = require('spotify-web-api-node');
-const app = express();
+const cors = require('cors')
 
+const app = express();
+app.use(cors())
+app.use(bodyParser.json())
 
 app.post('/login', (req, res) => {
     const spotifyWebApi = new SpotifyWebApi({
@@ -18,7 +21,10 @@ app.post('/login', (req, res) => {
             expiresIn: data.body.exipres_in
         })
     })
-    .catch(() => {
+    .catch((err) => {
+        console.log(err)
         res.sendStatus(400)
     })
 })
+
+app.listen(3001)
