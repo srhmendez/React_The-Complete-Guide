@@ -1,6 +1,8 @@
 # Cocktail Index App
 
-## Topics Explored in This App
+## [https://epic-borg-b15ae0.netlify.app/](Deployed Project)
+
+### Topics Explored in This App
 
 - create-react-app
 - deploying a react application
