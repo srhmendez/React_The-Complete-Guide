@@ -1,0 +1,21 @@
+.cardContainer{
+    background-color: bisque;
+    width:90%;
+    margin:5%
+}
+.cocktail-image{
+    max-width:80%;
+    margin:0% 10%;
+    margin-bottom:0;
+}
+h3 {
+    font-size:2rem;
+    margin-left:10%;
+}
+h4{
+    padding:8%;
+    padding-left:10%;
+    font-size:.9rem;
+    background-color: coral;
+    color:rgb(255, 235, 221)
+}
