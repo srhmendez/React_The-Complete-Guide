@@ -1,6 +1,6 @@
 # Cocktail Index App
 
-## (Deployed Project)[https://epic-borg-b15ae0.netlify.app/]
+## [Deployed Project](https://epic-borg-b15ae0.netlify.app/)
 
 ### Topics Explored in This App
 
